@@ -197,7 +197,7 @@
 		<div class="header-menu" id="sticky-menu">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3">
+					<!-- <div class="col-lg-3">
 						<ul class="categories-wrap">
 							<li>
 								<a class="navCategoryListActive" href="javascript:void(0);">{{ __('Browse Categories') }}</a>
@@ -207,7 +207,7 @@
 								</ul>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 					<div class="col-lg-9">
 						<div class="tp-mega-full">
 							<div class="tp-menu align-self-center">
@@ -242,11 +242,11 @@
 			<div class="mobile-navigation">
 				<nav>
 					<ul class="mobile-menu">
-						<li class="has-children-menu"><a href="#">{{ __('Browse Categories') }}</a>
+						<!-- <li class="has-children-menu"><a href="#">{{ __('Browse Categories') }}</a>
 							<ul class="dropdown">
 								@php echo CategoryListForMobile(); @endphp
 							</ul>
-						</li>
+						</li> -->
 						@php echo HeaderMenuList('HeaderMenuListForMobile'); @endphp
 					</ul>
 				</nav>
